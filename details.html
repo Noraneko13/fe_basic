@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+</head>
+
+<body>
+    <section>
+        <h1>ПОИСК</h1>
+        <form action="https://fom.in.ua/echo">
+            <p>
+                <label>
+                    <select name="AUTO" id="auto">
+                        <option value="0" selected disabled>Выберите тип кузова</option>
+                        <option value="1" disabled>Седан</option>
+                        <option value="2">Хэтчбек</option>
+                        <option value="3">Универсал</option>
+                        <option value="4" disabled>Лифтбэк</option>
+                        <option value="5">Купе</option>
+                        <option value="6">Кабриолет</option>
+                        <option value="7" disabled>Родстер</option>
+                        <option value="8">Стретч</option>
+                        <option value="9">Тарга</option>
+                        <option value="10">Внедорожник</option>
+                        <option value="11" disabled>Кроссовер</option>
+                        <option value="12">Пикап</option>
+                        <option value="13">Фургон</option>
+                        <option value="14">Минивэн</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <select name="MODEL" id="model">
+                        <option value="0" selected disabled>Выберите модель авто</option>
+                        <option value="1">BMW</option>
+                        <option value="2">Citroen</option>
+                        <option value="3">Lexus</option>
+                        <option value="4">Mercedes-Benz</option>
+                        <option value="5">Mitsubishi</option>
+                        <option value="6" disabled>Peugeot</option>
+                        <option value="7">Porsche</option>
+                        <option value="8">Renault</option>
+                        <option value="9">SEAT</option>
+                        <option value="10">Skoda</option>
+                        <option value="11">Suzuki</option>
+                        <option value="12">Opel</option>
+                        <option value="13" disabled>Tesla</option>
+                        <option value="14">Toyota</option>
+                    </select>
+                </label>
+            </p>
+            <h3>Выберите страну производителя</h3>
+            <br>
+            <label for="origin">
+                <input type="radio" name="country" id="origin" value="Germany"> Германия
+            </label>
+            <br>
+            <label for="origin1">
+                <input type="radio" name="country" id="origin1" value="USA"> США
+            </label>
+            <br>
+            <label for="origin2">
+                <input type="radio" name="country" id="origin2" value="GB"> Британия
+            </label>
+            <br>
+            <label for="origin3">
+                <input type="radio" name="country" id="origin3" value="France"> Франция
+            </label>
+            <h3>Укажите диапазон цены</h3>
+            <p>
+                <label for="price">От
+                    <input type="range" name="prc" id="price" min="0" max="1000000" step="1">
+                </label>
+            </p>
+            <p>
+                <label for="price1">До
+                    <input type="range" name="prc" id="price1" min="0" max="1000000" step="1">
+                </label>
+            </p>
+            <h3>Состояние</h3>
+            <p>
+                <label>
+                    <input type="checkbox" name="condition">Битая
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="condition">В кредите
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="condition">Нерастаможенная
+                </label>
+            </p>
+            <p>
+                <label>
+                    <select name="FUEL" id="fuel">
+                        <option value="0" selected disabled>Выберите тип топлива</option>
+                        <option value="1">Бензин</option>
+                        <option value="2">Дизельное топливо</option>
+                        <option value="3">Природный газ</option>
+                        <option value="4">Электро</option>
+                        <option value="5">Пропан</option>
+                        <option value="6">Биодизель</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <select name="Transmission" id="transmission">
+                        <option value="0" selected disabled>Выберите тип коробки передач</option>
+                        <option value="1">Механика</option>
+                        <option value="2">Автомат</option>
+                        <option value="3">Вариативная</option>
+                    </select>
+                </label>
+            </p>
+            <h3>Выберите цвет</h3>
+            <p>
+                <label for="color1">
+                    <input type="color" name="COLOR" id="color1">
+                </label>
+            </p>
+            <h3>Дополнительно :</h3>
+            <p>
+                <label>
+                    <input type="checkbox" name="additionally">Люк
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="additionally">Кондиционер
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="additionally">Кожанный салон
+                </label>
+            </p>
+            <p>
+                <button type="submit">SEND</button>
+            </p>
+        </form>
+    </section>
+</body>
+
+</html>
