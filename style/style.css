@@ -3,7 +3,9 @@ body {
     font-size: 20px;
     padding: 2rem;
 }
-
+h1,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
 .col1 {
     color: #7d5951;
 }
