@@ -17,3 +17,63 @@ html {
     line-height: 1.7;
     font-style: normal;
 }
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li ul li:hover ul li{
+    display: block;
+}
+li {
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background:  #857caa;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+li ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 42px;
+}
+li ul li{
+    float: none;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: #857caa;
+}
+li a{
+    display: block;
+    width: 150px;
+    color:    #e6e7f4;
+    text-decoration: none;
+}
+li:hover ul{
+    display: block;
+}
+li:hover{
+    background: #4a4689;
+}
+li ul li ul{
+    left:150px;
+    top: 0;
+}
+li ul li ul li{
+    display: none;
+}
+
+    
