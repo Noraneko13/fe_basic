@@ -562,8 +562,6 @@ margin-top: 24px;
   background-color: transparent;
   width: 354px;
 height: 56px;
-left: calc(50% - 354px/2 - 82px);
-top: calc(50% - 56px/2 - 0.44px);
 }
 
 .button-form {
