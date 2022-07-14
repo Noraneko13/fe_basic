@@ -12,13 +12,13 @@
 
 <body>
     <header class="header">
-        <div class="container justify-between items-stretch">
+        <div class="container justify-between">
             <div class="navigation-left items-center display">
                 <img src="./image/moxa.png" alt="logo">
             </div>
-            <div class="up-level">
+            <div class="up-level justify-between">
                 <div class="container">
-                    <nav class="nav flex items-center justify-center gap-30 display">
+                    <nav class="nav items-center justify-center gap-30 display">
                         <a href="#first" class="nav-link">Home</a>
                         <a href="#second" class="nav-link">About</a>
                         <a href="#third" class="nav-link">Contact</a>
@@ -34,19 +34,17 @@
     <section class="section1">
         <div class="container">
             <div class="grid title">
-                <div class="column justify-center flex-wrap">
-                    <h1>HI, I'M TAYLER.</h1>
-                    <div class="flex-wrap wrapper-one">
-                        <h1>A CREATIVE</h1>
-                        <span class="items-center">
-                            <img src="./image/star-big.png" alt="1" class="icon-star-title"></span>
-                        <h1>DESIGNER</h1>
-                        <h1>BASED IN LONDON</h1>
-                    </div>
+                <div class="display-block margin-95">
+                    <h1>HI, I'M TAYLER. <br>
+                        A CREATIVE
+                        <img src="./image/star-big.png" alt="1" class="icon-star-title">
+                        DESIGNER BASED IN LONDON
+                    </h1>
+
                     <div class="header-detail flex-start flex-wrap items-center">
-                        <h5>DESIGN</h5><img src="./image/star-mini.png" alt="2" class="small-icon">
-                        <h5>DEVELOPMENT</h5><img src="./image/star-mini.png" alt="" class="small-icon">
-                        <h5>WEBFLOW</h5>
+                        <p class="size-24">DESIGN</p><img src="./image/star-mini.png" alt="2" class="small-icon">
+                        <p class="size-24">DEVELOPMENT</p><img src="./image/star-mini.png" alt="" class="small-icon">
+                        <p class="size-24">WEBFLOW</p>
                     </div>
                     <div class="btn-more">
                         <a href="#" class="btn-black row items-center">
@@ -60,34 +58,37 @@
         </div>
     </section>
 
-    <div class="down-level">
-        <nav class="flex items-center justify-center gap-50">
-            <div>DEVELOPMENT</div>
-            <img src="./image/star-mini.png" alt="star">
-            <div>STRATEGY</div>
-            <img src="./image/star-mini.png" alt="star">
-            <div>PRODUCT DESIGN</div>
-            <img src="./image/star-mini.png" alt="star">
-            <div>MOTION GRAPHIC</div>
-            <img src="./image/star-mini.png" alt="star">
-            <div>ART DIRECTION</div>
-            <img src="./image/star-mini.png" alt="star">
-            <div>DESIGN</div>
-            <img src="./image/star-mini.png" alt="star">
-            <div>DEVELOPMENT</div>
-            <img src="./image/star-mini.png" alt="star">
-        </nav>
-    </div>
+    <section class="section-transform">
+        <div class="down-level">
+            <nav class="flex items-center justify-center gap-50">
+                <div>DEVELOPMENT</div>
+                <img src="./image/star-mini.png" alt="star">
+                <div>STRATEGY</div>
+                <img src="./image/star-mini.png" alt="star">
+                <div>PRODUCT DESIGN</div>
+                <img src="./image/star-mini.png" alt="star">
+                <div>MOTION GRAPHIC</div>
+                <img src="./image/star-mini.png" alt="star">
+                <div>ART DIRECTION</div>
+                <img src="./image/star-mini.png" alt="star">
+                <div>DESIGN</div>
+                <img src="./image/star-mini.png" alt="star">
+                <div>DEVELOPMENT</div>
+                <img src="./image/star-mini.png" alt="star">
+            </nav>
+        </div>
+    </section>
 
     <section>
         <div class="container small justify-between">
             <div>
                 <div class="name flex-start items-center">
-                    <h5>TAYLER</h5><img src="./image/star-mini.png" alt="star" class="header-small-icon">
-                    <h5>BARTHHOLD</h5>
+                    <p class="size-24">TAYLER</p><img src="./image/star-mini.png" alt="star" class="header-small-icon">
+                    <p class="size-24">BARTHHOLD
+                    </p>
                 </div>
                 <div class="about-1">
-                    <h1>Lead product designer and art director.</h1>
+                    <h2>Lead product designer and art director.</h2>
                 </div>
             </div>
 
@@ -105,15 +106,15 @@
                 <div class="justify-between flex-wrap">
                     <div>
                         <div class="detail-small">BORN IN</div>
-                        <h5>New York</h5>
+                        <p class="size-24">New York</p>
                     </div>
                     <div>
                         <div class="detail-small">EXPERIENCE</div>
-                        <h5>7+ Years</h5>
+                        <p class="size-24">7+ Years</p>
                     </div>
                     <div>
                         <div class="detail-small">DATE OF BIRTH</div>
-                        <h5>27 June 1992</h5>
+                        <p class="size-24">27 June 1992</p>
                     </div>
                 </div>
             </div>
@@ -121,28 +122,30 @@
     </section>
 
     <section class="section-card">
-        <div class="container small justify-between border">
-            <div class="amount flex-1">
-                <div class="number-large">7+</div>
-                <div class="text-under">Years of Experience</div>
-            </div>
-            <div class="amount-black column items-center flex-1">
-                <div class="number-large">50+</div>
-                <div class="text-under">Project Completed</div>
-            </div>
-            <div class="amount flex-1">
-                <div class="number-large">30+</div>
-                <div class="text-under">Happy Clients</div>
+        <div class="container small ">
+            <div class="border justify-between">
+                <div class="amount flex-1">
+                    <div class="number-large">7+</div>
+                    <div class="text-under">Years of Experience</div>
+                </div>
+                <div class="amount-black column flex-1">
+                    <div class="number-large">50+</div>
+                    <div class="text-under">Project Completed</div>
+                </div>
+                <div class="amount flex-1">
+                    <div class="number-large">30+</div>
+                    <div class="text-under">Happy Clients</div>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="section-card">
         <div class="container small">
-            <div class="column justify-center items-center">
+            <div class="text-center">
                 <img src="./image/star-big.png" alt="star" class="icon-star">
-                <h2>Awards</h2>
-                <h6 class="award">REGONITIONS & ACCOIMPLISHMENTS</h6>
+                <h3>Awards</h3>
+                <p class="award size-18">REGONITIONS & ACCOIMPLISHMENTS</p>
             </div>
 
             <div class="flex column gap-24">
@@ -154,7 +157,7 @@
                                 <p class="paragraph">1</p>
                             </div>
                             <div>
-                                <h5>Webflow Awwwards Team</h5>
+                                <p class="size-24">Webflow Awwwards Team</p>
                                 <p>Runner Up - Webflow Expert Design</p>
                             </div>
                         </div>
@@ -172,7 +175,7 @@
                                 <p class="paragraph">2</p>
                             </div>
                             <div>
-                                <h5>Webflow Awwwards Team</h5>
+                                <p class="size-24">Webflow Awwwards Team</p>
                                 <p>Runner Up - Webflow Expert Design</p>
                             </div>
                         </div>
@@ -191,7 +194,7 @@
                                 <p class="paragraph">3</p>
                             </div>
                             <div>
-                                <h5>Webflow Awwwards Team</h5>
+                                <p class="size-24">Webflow Awwwards Team</p>
                                 <p>Runner Up - Webflow Expert Design</p>
                             </div>
                         </div>
@@ -210,7 +213,7 @@
                                 <p class="paragraph">4</p>
                             </div>
                             <div>
-                                <h5>Webflow Awwwards Team</h5>
+                                <p class="size-24">Webflow Awwwards Team</p>
                                 <p>Runner Up - Webflow Expert Design</p>
                             </div>
                         </div>
@@ -227,10 +230,10 @@
 
     <section class="section-card">
         <div class="container small">
-            <div class="column justify-center items-center">
+            <div class="text-center">
                 <img src="./image/star-big.png" alt="star" class="icon-star">
-                <h2>Portfolio</h2>
-                <h6 class="award">REGONITIONS & ACCOIMPLISHMENTS</h6>
+                <h3>Portfolio</h3>
+                <p class="award size-18">REGONITIONS & ACCOIMPLISHMENTS</p>
             </div>
             <div class="justify-between">
                 <div class="portfolio-image">
@@ -240,7 +243,7 @@
                     <div class="art-direction">
                         <div class="portfolio-text">Art Direction</div>
                     </div>
-                    <h2>Beautiful and advanced website interfaces</h2>
+                    <h3>Beautiful and advanced website interfaces</h3>
                     <a href="#" class="portfolio-link">Read More</a>
                 </div>
             </div>
@@ -250,7 +253,7 @@
                     <div class="art-direction">
                         <div class="portfolio-text">Branding</div>
                     </div>
-                    <h2>Design and extreme programming practice</h2>
+                    <h3>Design and extreme programming practice</h3>
                     <a href="#" class="portfolio-link">Read More</a>
                 </div>
                 <div class="portfolio-image">
@@ -266,7 +269,7 @@
                     <div class="art-direction">
                         <div class="portfolio-text">Web Design</div>
                     </div>
-                    <h2>Nature inspired design</h2>
+                    <h3>Nature inspired design</h3>
                     <a href="#" class="portfolio-link">Read More</a>
                 </div>
             </div>
@@ -276,7 +279,7 @@
                     <div class="art-direction">
                         <div class="portfolio-text">Motion Graphics</div>
                     </div>
-                    <h2>Design & concept at work.</h2>
+                    <h3>Design & concept at work.</h3>
                     <a href="#" class="portfolio-link">Read More</a>
                 </div>
                 <div class="portfolio-image">
@@ -288,10 +291,10 @@
 
     <section class="section-card">
         <div class="container small">
-            <div class="column justify-center items-center">
+            <div class="text-center">
                 <img src="./image/star-big.png" alt="star" class="icon-star">
-                <h2>Services</h2>
-                <h6 class="award">REGONITIONS &amp; ACCOIMPLISHMENTS</h6>
+                <h3>Services</h3>
+                <p class="award size-18">REGONITIONS &amp; ACCOIMPLISHMENTS</p>
             </div>
 
             <div class="grid cardbox">
@@ -333,10 +336,9 @@
 
     <section class="section-card">
         <div class="container small">
-            <div class="column justify-center items-center">
+            <div class="text-center">
                 <img src="./image/star-big.png" alt="star" class="icon-star">
-                <h2>Happy Customer</h2>
-                <span class="award"></span>
+                <h3>Happy Customer</h3>
             </div>
 
             <div class="grid cardbox-logo">
@@ -369,14 +371,13 @@
     </section>
 
     <section class="section-card">
-        <div class="article-icon">
-            <img src="./image/part-of-star.png" alt="star" class="image-article">
-        </div>
+        <img src="./image/part-of-star.png" alt="star" class="image-article">
+
         <div class="container small">
-            <div class="column justify-center items-center">
+            <div class="text-center">
                 <img src="./image/star-big.png" alt="star" class="icon-star">
-                <h2>Articles</h2>
-                <h6 class="award">REGONITIONS & ACCOIMPLISHMENTS</h6>
+                <h3>Articles</h3>
+                <p class="award size-18">REGONITIONS & ACCOIMPLISHMENTS</p>
             </div>
 
             <div class="flex column gap-100">
@@ -389,8 +390,8 @@
                                 <div class="red-text-detail">/</div>
                                 <div class="red-text-detail">April 28, 2022</div>
                             </div>
-                            <h5>Why I moved from
-                                Wordpress to Webflow</h5>
+                            <p class="size-24">Why I moved from
+                                Wordpress to Webflow</p>
                         </div>
                         <div class="items-center">
                             <p>Lorem ipsum dolor sit amet,
@@ -408,7 +409,7 @@
                                 <div class="red-text-detail">/</div>
                                 <div class="red-text-detail">April 26, 2022</div>
                             </div>
-                            <h5>What did i learn from doing 50+ design sprints</h5>
+                            <p class="size-24">What did i learn from doing 50+ design sprints</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
@@ -425,8 +426,8 @@
                                 <div class="red-text-detail">/</div>
                                 <div class="red-text-detail">April 26, 2022</div>
                             </div>
-                            <h5>Fostering professional
-                                growth in your company</h5>
+                            <p class="size-24">Fostering professional
+                                growth in your company</p>
                         </div>
                         <p>Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
@@ -435,7 +436,7 @@
                 </div>
             </div>
             <a href="#" class="justify-center items-center row button-article">
-                <div>Browse Articles</div>
+                <p>Browse Articles</p>
             </a>
         </div>
     </section>
@@ -443,7 +444,7 @@
     <section class="section-email">
         <div class="container small ">
             <div class="row justify-between flex-wrap items-center newsletter-wrapper">
-                <h5>Subscribe to our newsletter</h5>
+                <p class="size-24">Subscribe to our newsletter</p>
                 <div class="form-email">
                     <form name="email-form" class="flex-start items-center">
                         <input type="email" class="text-form" name="letter" placeholder="Email Address">
@@ -455,7 +456,7 @@
     </section>
 
 
-    <section class="section-footer">
+    <footer>
         <div class="container small">
             <div class="">
                 <div class="grid footer">
@@ -490,5 +491,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
 </body>

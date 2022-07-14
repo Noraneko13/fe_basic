@@ -36,7 +36,7 @@ body {
 }
 .section1{
     position: relative;
-    padding: 40px 5% 20px;
+    padding-top: 40px;
 }
 
 div {
@@ -60,7 +60,6 @@ body {
     font-size: 56px;
     line-height: 64px;
     font-weight: 400;
-    letter-spacing: -0.01em;
   }
   
   h2 {
@@ -68,10 +67,9 @@ body {
     margin-bottom: 0px;
     font-family: 'Bai Jamjuree', sans-serif;
     color: #161513;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 56px;
+    line-height: 64px;
     font-weight: 400;
-    letter-spacing: -0.03em;
   }
   
   h3 {
@@ -79,7 +77,7 @@ body {
     margin-bottom: 0px;
     font-family: 'Bai Jamjuree', sans-serif;
     color: #161513;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 48px;
     font-weight: 400;
     letter-spacing: -0.02em;
@@ -89,40 +87,33 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 32px;
+    font-size: 31px;
     line-height: 40px;
     font-weight: 400;
     letter-spacing: -0.02em;
   }
   
-  h5 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 400;
-    letter-spacing: -0.02em;
-  }
-  
-  h6 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 400;
-  }
-  
   p {
     margin-bottom: 0px;
-    font-size: 16px;
     line-height: 24px;
     font-weight: 400;
   }
 
+.size-24 {
+  font-size: 24px;
+}
+.size-18 {
+  font-size: 18px;
+}
+.text-center {
+  text-align: center;
+}
   /* ...........flex......*/
 .display {
     display: inline-block;
+  }
+  .display-block {
+    display: block;
   }
   .flex-1 {
     flex: 1;
@@ -201,7 +192,6 @@ align-items: flex-start;
   /*..........................*/
 
 .navigation-left {
-  width: 50%;
   min-height: 60px;
 }
 
@@ -227,7 +217,6 @@ align-items: flex-start;
   line-height: 16px;
   padding-top: 9px;
   padding-bottom: 9px;
-  margin-left: 430px;
   background-color: transparent;
   border-color: #161513;
 }
@@ -249,10 +238,7 @@ align-items: flex-start;
   margin-top: 35px;
   margin-bottom: 40px;
 }
-.icon-star-title {
-  margin-right: 12px;
-  margin-left: 12px;
-}
+
 .small-icon {
     margin-right: 8px;
     margin-left: 8px;
@@ -292,11 +278,12 @@ align-items: flex-start;
   text-align: center;
   font-weight: 400;
 }
+.section-transform {
+  padding-bottom: 150px;
+  padding-top: 150px;
+  overflow: hidden;
+}
  .down-level {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-top: 150px;
-  margin-bottom: 150px;
   color: white;
   background-color: #161513;
   border-radius: 0px;
@@ -315,7 +302,6 @@ align-items: flex-start;
 .about-1 {
   padding-top: 13px;
   padding-bottom: 122px;
-  padding-bottom: 179px;
   max-width: 351px;
 }
 .about-2 {
@@ -354,7 +340,7 @@ align-items: flex-start;
 /*.........................................*/
 .section-card {
   position: relative;
-  padding: 60px 5%;
+  padding-top: 122px;
 }
 .amount {
     padding: 24px 0;
@@ -477,6 +463,7 @@ line-height: 32px;
 margin-top: 24px;
 }
 .cardbox-logo {
+  padding-top: 62px;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto;
@@ -484,14 +471,12 @@ margin-top: 24px;
   grid-column-gap: 32px;
   text-align: center;
 }
-.article-icon {
+.image-article {
   position: absolute;
-  left: auto;
-  top: auto;
-  right: -140px;
-  bottom: 220px;
-  width: 240px;
   height: 240px;
+  left: 93.06%;
+  right: -9.72%;
+  top: calc(50% - 240px/2 + 210.56px);
 }
 .articles {
   border: 2px solid #161513;
@@ -543,6 +528,7 @@ margin-top: 24px;
   text-align: center;
 }
 .section-email {
+  margin-top: 136px;
   padding: 60px;
   background-color: #e6e3de;
 }
@@ -583,7 +569,7 @@ input::placeholder {
 }
 
 /*.............................................*/
-.section-footer {
+footer {
   padding: 66px;
   background-color: #161513;
 }
