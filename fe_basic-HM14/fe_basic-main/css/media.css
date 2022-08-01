@@ -1,0 +1,141 @@
+@media screen and (min-width: 350px) {
+  .container {
+    max-width: calc(375px + 2rem);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    }
+    .wrapper_title {
+      max-width: 315px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .container {
+max-width: calc(768px + 2rem);
+margin-left: auto;
+margin-right: auto;
+position: relative;
+  }
+  .wrapper_title {
+    max-width: 500px;
+    text-align: left;
+  }
+  .invisible {
+    display: inline-block;
+  }
+.background {
+  background-color: #FFFFFF;
+}
+  .burger {
+    display: none;
+  }
+.card_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 60px 60px;
+}
+.card {
+  max-width: calc(50% - 30px);
+  width: 100%;
+  }
+
+  .parts {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .description {
+    padding-bottom: 0px;
+  }
+.basement {
+  max-width: 398px;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+}
+  @media screen and (min-width: 1000px) {
+    .container {
+max-width: calc(904px + 2rem);
+margin-left: auto;
+margin-right: auto;
+position: relative;
+    }
+    .card {
+      max-width: calc(33.3% - 40px);
+      }
+    
+    .header {
+      display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+      "lg up"
+      "lg mn";
+  }
+.up-level {
+  background-color: #FFFFFF;
+  order: 2;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  grid-area: up;
+}
+.menu {
+  order: 3;
+  text-align: right;
+  grid-area: mn;
+}
+.logo-up {
+  order: 1;
+  grid-template-rows: 2fr;
+  grid-area: lg;
+}
+  }
+
+  @media screen and (min-width: 1350px) {
+    .container {
+      max-width: calc(1320px + 2rem);
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+        }
+        .general {
+          font-size: 38px;
+line-height: 46px;
+        }
+    .wrapper_title {
+      max-width: 780px;
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    .container {
+      max-width: calc(1600px + 2rem);
+    }
+.wrapper_title {
+      max-width: 1360px;
+    }
+
+.basement {
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas:
+      "ad cr"
+      "lk cr";
+}
+.image {
+  object-fit: cover;
+}
+.address {
+  grid-area: ad;
+}
+.link {
+  grid-area: lk;
+}
+.copyright {
+  grid-area: cr;
+}
+  }
